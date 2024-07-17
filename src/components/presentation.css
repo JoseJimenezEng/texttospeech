@@ -1,0 +1,36 @@
+.contentPes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.contentPes .title{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 5em;
+    text-align: left;
+    font-weight: 200;
+    color: whitesmoke;
+    
+
+}
+
+.contentPes .title h1{
+     padding: 0 1em;
+     margin-bottom: 2em;
+}
+

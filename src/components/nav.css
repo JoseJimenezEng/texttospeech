@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+.contentNav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+    background-color: transparent; 
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  }
+  
+  .contentNav .brand  {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contentNav .brand:hover{
+    cursor: pointer;
+  }
+
+  .contentNav .brand  p{
+  
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3em;
+  margin: 20px 0 0 0;
+    
+  }
+  
+  .contentNav .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    font-size: 20px;
+  }
+  
+  
+ 
+  .contentNav .navigation :nth-last-child(1){ 
+
+  padding: 1em;
+  margin: 0.5em 0;
+}
+
+.contentNav .navigation :nth-last-child(1):hover{ 
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.contentNav .navigation > *:hover{
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: 0.2s ease-in;
+}

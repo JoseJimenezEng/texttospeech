@@ -1,0 +1,92 @@
+
+
+.contentAbt {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 0 2em;
+    background-color: black;
+}
+
+.contentAbt .contentA .title,
+.contentAbt .contentA .text {
+    text-align: start;
+}
+
+.contentAbt .contentA {
+    border-left: 1px solid  white;
+    border-right: 1px solid  white;
+    padding: 0 2em;
+}
+
+
+.contentAbt .contentA > *{
+    font-size: 2em;
+}
+
+.contentAbt .contentA .title {
+    font-size: 2.5em;
+}
+
+.contentAbt .contentA .text h2 {
+    margin: 0.1em 0;
+}
+
+
+.contentAbt .contentA .cards {
+    display: flex;
+    gap: 2em;
+    
+}
+
+
+.contentAbt .contentA .cards .contentC img {
+    width: 384px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.contentAbt .contentA .cards .contentC .text {
+    width: 384px;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+.contentAbt .contentA .button{
+    display: flex;
+    justify-content: flex-start;
+    margin: 3em 0;
+}
+
+.contentAbt .contentA .button svg{
+    width: 15px;
+    height: 15px;
+}
+
+
+.contentAbt .contentA .button button {
+    
+    font-family: "Space Grotesk", sans-serif;
+    border: #fff solid 1px;
+    display: inline-block;
+    font-size: 0.7em;
+    line-height: 15px;
+    padding: 18px 18px 17px;
+    cursor: pointer;
+    background: #000;
+    color: whitesmoke;
+}
+
+.contentAbt .contentA .button button:hover {
+    border: #fff solid;
+    color: #000;
+    background-color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.svg{
+    filter: invert();
+    transition: 0.3s ease-in;
+}
