@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import * as tts from '@diffusionstudio/vits-web';
 import '../components/texttospeech.css'
 import { ReactTyped } from "react-typed";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const TextToSpeech = () => {
     const [text, setText] = useState('');
@@ -33,6 +35,7 @@ const TextToSpeech = () => {
     return (
         <div className="texttospeech">
             <div className="containerTts">
+            <AnimationOnScroll animateIn="animate__fadeIn">
                 <div className="contentTts">
                     <h1>Text to Speech</h1>
                     <textarea
@@ -48,6 +51,7 @@ const TextToSpeech = () => {
                     </button>
 
                 </div>
+            </AnimationOnScroll>
                 <div className="textmoving">
 
                     <ReactTyped strings={[

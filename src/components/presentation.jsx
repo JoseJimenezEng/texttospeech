@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import bgvidpress from '../assets/bgvidpres.mp4';
+import bgvidpres from '../assets/bgvidpres.mp4';
 import '../components/presentation.css'
 
 
@@ -19,7 +19,7 @@ const Presentation = () => {
                 
                 <video
                     ref={videoRef}
-                    src={bgvidpress}
+                    src={bgvidpres}
                     autoPlay
                     playsInline
                     preload="metadata"
@@ -30,7 +30,7 @@ const Presentation = () => {
                 ></video>
 
                 <div className="title">
-                    <h1>We are THE AI company for you!</h1>
+                    <h1>We are the AI company for you!</h1>
                 </div>
             </div>
         
