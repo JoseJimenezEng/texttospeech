@@ -3,6 +3,7 @@ import Presentation from "./components/presentation";
 import Nav from "./components/nav";
 import About from "./components/about"
 import Videoback from "./components/videoback";
+import Footer from "./components/footer";
 import './App.css';
 
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <TextToSpeech />
       <Videoback/>
+      <Footer/>
     </div>
   );
 }
