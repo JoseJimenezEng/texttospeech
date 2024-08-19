@@ -14,7 +14,7 @@ const Videoback = () => {
 
     return (
        
-            <div className="videoBackground">
+            <div className="videoBackground" style={{height: "100vh"}}>
                 
                 <video
                     ref={videoRefBg}
