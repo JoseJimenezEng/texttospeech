@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# AI Text-to-Speech API e Email.js API
+Este proyecto contiene dos componentes de React independientes que permiten la conversión de texto a voz y el envío automático de correos electrónicos desde el navegador **sin necesidad de un desarrollar backend propio**.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Características
+### Text-to-Speech (Texto a Voz)
 
-## Available Scripts
+Convierte texto a voz utilizando la API @diffusionstudio/vits-web.
+Reproduce el texto ingresado en formato de audio.
 
-In the project directory, you can run:
+![image](https://github.com/user-attachments/assets/af055dae-c096-4d77-8202-5e33631299f2)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Envío Automático de Correos Electrónicos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Permite a los usuarios enviar correos electrónicos directamente desde un formulario en la página web.
+Utiliza emailjs para enviar correos electrónicos **sin necesidad de un backend propio**.
 
-### `npm test`
+![image](https://github.com/user-attachments/assets/bf79ff27-cbf3-4f66-820f-26a96cd810f6)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/user-attachments/assets/5dd0dc2e-4c47-4467-8034-736958fa3674)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Uso
+### Text-to-Speech
+Escribe o pega el texto en el campo de entrada de texto.
+Haz clic en "Talk to me!" para convertir el texto a voz.
+El texto ingresado será procesado y reproducido en formato de audio.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Envío Automático de Correos Electrónicos
+Introduce tu correo electrónico y un mensaje en el formulario de contacto.
+Haz clic en "Send" para enviar el correo electrónico.
+El correo será enviado a través de la API de EmailJS utilizando las configuraciones proporcionadas.
