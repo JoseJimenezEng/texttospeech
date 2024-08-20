@@ -1,7 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
 .footer{
     width: 100%;
-    height: 250px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #eee;
 }
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 25px;
+    border-radius: 7px;
+}
+
+.contact__form input, .contact__form textarea {
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    resize: vertical;
+    outline: none;
+    box-sizing: content-box;
+    border-bottom: solid 3px transparent;
+    margin: 5px 0;
+}
+
+.contact__form label {
+    font-weight: 600;
+}
+
+.contact__form input:focus, .contact__form textarea:focus {
+    border-bottom: solid 3px rgb(0, 119, 255);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    width: 200px;
+    height: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1em;
+background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+}
+
