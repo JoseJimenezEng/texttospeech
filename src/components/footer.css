@@ -38,12 +38,12 @@
     border-bottom: solid 3px rgb(0, 119, 255);
 }
 
-.button{
+.buttonFooter{
     display: flex;
     justify-content: center;
 }
 
-.button button{
+.buttonFooter button{
     width: 200px;
     height: 40px;
     font-family: "Space Grotesk", sans-serif;

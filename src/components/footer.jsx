@@ -19,7 +19,7 @@ const footer = () => {
                         <input type="text" name="email_from" id="emailFrom" className="email__from" placeholder="person@example.com" required />
                         <label htmlFor="message">Message:</label>
                         <textarea name="message" id="message" className="message__box" required></textarea>
-                       <div className="button"><button>Send</button></div>
+                       <div className="buttonFooter"><button>Send</button></div>
                     </form>
                 </div>
             </div>
